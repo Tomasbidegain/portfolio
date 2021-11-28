@@ -44,7 +44,7 @@ const Portfolio = () => {
                         </div>
                         <div className="button-portfolio">
                             <a href="https://github.com/Tomasbidegain/app-mercadolibre" target="_ blank" rel='noreferrer'><button>Code</button></a>
-                            <a href="https://nifty-heisenberg-cf9a33.netlify.app/" target="_ blank" rel='noreferrer'><button>Project</button></a>
+                            <a href="https://mercadolibre-app.netlify.app/" target="_ blank" rel='noreferrer'><button>Project</button></a>
                         </div>
                     </div>
                 </div>
