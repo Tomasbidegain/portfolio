@@ -50,11 +50,11 @@ const Contact = () => {
     return ( 
         <div className="contact-div">
             <img src={wave_bottom} alt="" />
-                    <form data-aos="fade-right" className="contact" id="contact" onSubmit={handleSubmit}>
+                    <form className="contact" id="contact" onSubmit={handleSubmit}>
                         <div data-aos="fade-right" className="contact-title">
                             <h2>Contact</h2>
                         </div>
-                        <div className="contact-nombre">
+                        <div data-aos="fade-right"  className="contact-nombre">
                             <label htmlFor="name">Nombre</label>
                             <input
                                 type="text"
@@ -68,7 +68,7 @@ const Contact = () => {
                             />
                             {errors.name && <p className="errors">{errors.name}</p>}
                         </div>
-                        <div className="contact-correo">
+                        <div data-aos="fade-right" className="contact-correo">
                             <label htmlFor="email">Correo</label>
                             <input
                                 type="email"
@@ -83,7 +83,7 @@ const Contact = () => {
                             {errors.email && <p className="errors">{errors.email}</p>}
 
                         </div>
-                        <div className="contact-mensaje">
+                        <div data-aos="fade-right" className="contact-mensaje">
                             <label htmlFor="mensaje">Mensaje</label>
                             <textarea
                                 name="message"
@@ -97,7 +97,7 @@ const Contact = () => {
                             </textarea>
                             {errors.message && <p className="errors">{errors.message}</p>}
                         </div>
-                        <input className="contact-submit" type="submit"/>
+                        <input data-aos="fade-right" className="contact-submit" type="submit"/>
                         {loading && <div className="loading"><i className="fas fa-circle-notch"></i></div>}
                     </form>
                     {response && <p className="exito">¡El mensaje se envió correctamente! Gracias por contactarte conmigo</p>}

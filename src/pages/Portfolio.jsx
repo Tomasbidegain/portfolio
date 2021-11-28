@@ -20,8 +20,8 @@ const Portfolio = () => {
             <div data-aos='flip-left' className="portfolio__title">
                 <h2>Portfolio</h2>
             </div>
-            <div data-aos="flip-right" className="portfolio-card">
-                <div className="portfolio__card-item">
+            <div className="portfolio-card">
+                <div data-aos="flip-right" className="portfolio__card-item">
                     <img src={movflix} alt="Proyecto MovFlix" />
                     <div className="capa">
                         <div className="capa-info">
@@ -34,7 +34,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="portfolio__card-item">
+                <div data-aos="flip-left" className="portfolio__card-item">
 
                     <img src={mercadolib} alt="Proyecto Mercado Libre" />
                     <div className="capa">
@@ -48,7 +48,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="portfolio__card-item">
+                <div data-aos="flip-right" className="portfolio__card-item">
 
                     <img src={gifs} alt="Proyecto GifExpertApp"/>
                     <div className="capa">
@@ -62,7 +62,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="portfolio__card-item">
+                <div data-aos="flip-left" className="portfolio__card-item">
 
                     <img src={tareas} alt="Proyecto administrar tareas" />
                     <div className="capa">
