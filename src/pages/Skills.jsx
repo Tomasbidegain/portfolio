@@ -15,7 +15,7 @@ import nodejs from '../assets/icon/nodejs.svg';
 const Skills = () => {
 
     useEffect( () => {
-        Aos.init( {duration: 5000});
+        Aos.init( {duration: 3000});
     }, [])
 
     return ( 

@@ -7,7 +7,7 @@ import cv from '../assets/cv.pdf';
 const SobreMi = () => {
 
     useEffect( () => {
-        Aos.init( {duration: 5000});
+        Aos.init( {duration: 3000});
     }, [])
 
     const anios = () => {

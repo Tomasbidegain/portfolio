@@ -42,7 +42,7 @@ const validationsForm = (form) => {
 const Contact = () => {
     
     useEffect( () => {
-        Aos.init( {duration: 5000});
+        Aos.init( {duration: 3000});
     }, [])
 
     const {form, errors, loading, response, handleChange, handleBlur, handleSubmit} = useForm(initialForm, validationsForm)

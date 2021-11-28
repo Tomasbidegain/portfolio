@@ -11,7 +11,7 @@ import tareas from '../assets/img/AdministrarProyectos.png';
 const Portfolio = () => {
 
     useEffect( () => {
-        Aos.init( {duration: 5000});
+        Aos.init( {duration: 3000});
     }, [])
 
     return ( 
